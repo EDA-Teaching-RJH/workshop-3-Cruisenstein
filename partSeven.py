@@ -1,8 +1,8 @@
 #computer wouldn't run match statements#
 
-con = "x"
+con = input("Would you like to begin? (y/n) ")
 
-while con == x:
+while con == "y":
 
     num1 = float(input("What's the first number? "))
     opp = input("What operation would you like to perform? ")
