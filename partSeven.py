@@ -8,7 +8,7 @@ while con == "y":
     opp = input("What operation would you like to perform? ")
     num2 = float(input("What's the second number? "))
 
-    if opp == "/" and num1 == "0" or num2 == "0":
+    if opp == "/" and num2 == "0":
         print("Error")
     else:
         if opp == "+":
@@ -23,8 +23,11 @@ while con == "y":
         elif num1 == "0" or num2 == "0":
             print("Error")
         elif opp == "/":
-            result = num1 / num2
-            print(f"{num1} / {num2} = {result}")
+            if number > 0:
+                result = num1 / num2
+                print(f"{num1} / {num2} = {result}")
+            else:
+                print("ERROR")
         elif opp == "%":
             result = num1 % num2
             print(f"{num1} % {num2} = {result}")
