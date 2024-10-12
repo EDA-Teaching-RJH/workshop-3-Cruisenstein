@@ -34,7 +34,7 @@ while con == "y":
         print("Quitting the apllication")
         break
 
-    print("NEW EQUATION")
+    print("-------NEW EQUATION-------")
 
 
 
