@@ -23,7 +23,7 @@ while con == "y":
         elif num1 == "0" or num2 == "0":
             print("Error")
         elif opp == "/":
-            if number > 0:
+            if num2 > 0:
                 result = num1 / num2
                 print(f"{num1} / {num2} = {result}")
             else:
