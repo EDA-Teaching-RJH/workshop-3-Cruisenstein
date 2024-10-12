@@ -17,8 +17,6 @@ while con == "y":
     elif opp == "*":
         result = num1 * num2
         print(f"{num1} * {num2} = {result}")
-    elif num1 == "0" or num2 == "0":
-        print("Error")
     elif opp == "/":
         if num2 != 0:
             result = num1 / num2
